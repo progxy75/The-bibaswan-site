@@ -2443,8 +2443,104 @@
         </div>
     </div>
 
-   <div style="position:fixed;bottom:90px;right:25px; box-sizing: border-box; overflow: hidden;"><a href="tel:+919641592339" target="_blank"><img alt="Call" loading="lazy" width="50" height="50" decoding="async" data-nimg="1" style="color:transparent;cursor:pointer;height:auto" src="/ricesmart.s3.ap-south-1.amazonaws.com/wp-content/uploads/2021/06/30154919/call.svg"/></a></div>
-    <a class="new-wht" href="https://api.whatsapp.com/send/?phone=919641592339&text=Hi&type=phone_number&app_absent=0" target="_blank" class="watsapp"><i class="fa fa-whatsapp" aria-hidden="true"></i></a>
+    <a href="https://api.whatsapp.com/send?phone=919641592339&amp;text=Hi" class="floatWhatsAppWATICTA" target="_blank" style="
+    position: fixed;
+    width: 50px;
+    height: 50px;
+    bottom: 80px;
+    right: 10px;
+    background: #4eaf26;
+    border-radius: 50px;
+    text-align: center;
+    cursor: pointer;
+    box-shadow: 2px 2px 3px #999;
+    z-index: 100;
+  ">
+  
+
+<img src="/assets/whatsapp.png" alt="" height="40px" width="40px" style="margin: 5px;"></a>
+
+
+<style>
+    @keyframes offline-centres-floating-cta-keyframes {
+    0%   {padding-right: 12px; width: 160px;}
+    25%  {padding-right: 24px; width: 172px;}
+    100% {padding-right: 12px;width: 50px;}
+  }
+    
+    .offline-centres-floating-img{
+      width: 26px;
+      height: 28px;
+      flex-shrink: 0;
+    }
+    
+    
+    .offline-centres-floating-cta{
+      overflow: hidden;
+      position: fixed;
+      right: 10px;
+      bottom: 200px;
+      z-index: 7;
+      cursor: pointer;
+      height: 50px;
+      width:160px;
+      transition: width 0.75s;
+      
+      background-color:#9971FD;
+      border-radius: 32px;
+      display: flex;
+      gap: 11px;
+      
+      padding: 11px 12px;
+      font-family: 'Poppins';
+      font-weight: 600;
+      line-height: 16px;
+      font-size: 14px;
+      color: #fff;
+    }
+    
+    .offline-centres-floating-cta.initial{
+      width: 50px;
+    }
+    
+    .offline-centres-floating-cta.extra{
+      width: 172px;
+      transition: width 0.4s;
+    }
+    
+    .CTA-Text{
+      flex-shrink: 0;
+    }
+  </style>
+<div class="offline-centres-floating-cta initial">
+    <img class="offline-centres-floating-img" src="/assets/small.png">
+    <div class="CTA-Text">
+      Explore Offline<br>Centres
+    </div>
+  </div>
+
+  <script type="text/javascript" id="">var offlineCentresFloatingCta=document.querySelector(".offline-centres-floating-cta"),setInt1,setInt2,setInt3,intervalCount=0;function setInt3Fuc(){clearInterval(setInt2);setInt3=setInterval(function(){offlineCentresFloatingCta&&offlineCentresFloatingCta.setAttribute("class","offline-centres-floating-cta initial");setInt1Fuc()},400)}
+    function setInt2Fuc(){clearInterval(setInt1);setInt2=setInterval(function(){offlineCentresFloatingCta&&(offlineCentresFloatingCta.classList.add("extra"),setInt3Fuc())},2E3)}function setInt1Fuc(){clearInterval(setInt3);setInt1=setInterval(function(){offlineCentresFloatingCta&&(offlineCentresFloatingCta.classList.remove("initial"),setInt2Fuc())},2E3)}
+    offlineCentresFloatingCta&&(offlineCentresFloatingCta.onclick=function(){window.location.href="/explore"==window.location.pathname?"https://www.vedantu.com/offline-centres?utm_source\x3dexplore\x26utm_medium\x3dgtm\x26utm_campaign\x3dstickyicon":"/"==window.location.pathname||""==window.location.pathname?"https://www.vedantu.com/offline-centres?utm_source\x3dhomepage\x26utm_medium\x3dgtm\x26utm_campaign\x3dstickyicon":"https://www.vedantu.com/offline-centres?utm_source\x3dseopages\x26utm_medium\x3dgtm\x26utm_campaign\x3dstickyicon"},
+    setInt1Fuc());</script>
+
+<a href="tel:08069236935" class="floatPhoneCTA" style="
+position: fixed;
+width: 50px;
+height: 50px;
+bottom: 140px;
+right: 10px;
+background: #ff693d;
+border-radius: 50px;
+text-align: center;
+cursor: pointer;
+box-shadow: 2px 2px 3px #999;
+z-index: 100;
+">
+
+<img src="/assets/call.png" alt="" height="30px" width="30px" style="margin: 10px;">      
+</a>
+
     <div class="footer-top"></div>
     <div class="footer">
         <div class="container">
