@@ -2431,7 +2431,80 @@
             </div>
         </div>
     </div>
+    <style>
+        .fixed-sociallink{
+            position: fixed;
+            left: 0;
+            bottom: 25%;
+            padding: 0;
+            z-index: 99;
+        }
+        ul{
+            box-sizing: border-box;
+            margin-top: 0;
+            margin-bottom: 10px;
+            display: block;
+            list-style-type: disc;
+            margin-block-start: 1em;
+            margin-block-end: 1em;
+            margin-inline-start: 0px;
+            margin-inline-end: 0px;
+            padding-inline-start: 40px;
+}
+        .fixed-sociallink li{
+            display: block;
+        }
+        .social_facebook{
+            display: block;
+            padding: 9px 16px;
+            background: #1d67c3;
+            font-size: 30px;
+            color: #fff;
+            text-align: center;
+            border-top-right-radius: 10px;
+}
+        a{
+            transition: all 0.8s;
+            transition-behavior: normal;
+            transition-duration: 0.8s;
+            transition-timing-function: ease;
+            transition-delay: 0s;
+            transition-property: all
+        }
+        .fa{
+            
+    display: inline-block;
+    font: normal normal normal 20px / 1 FontAwesome;
+    font-size: inherit;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+.social_instra {
+    display: block;
+    padding: 9px 16px;
+    background: linear-gradient(26deg, #ffc905, #ff03e0fc, #720dea);
+    font-size: 30px;
+    color: #fff;
+    text-align: center;
+}
+.social_youtube {
+    display: block;
+    padding: 9px 16px;
+    background: #ff0000;
+    font-size: 30px;
+    color: #fff;
+    text-align: center;
+    border-bottom-right-radius: 10px;
+}
 
+
+    </style>
+    <ul class="fixed-sociallink">
+        <li><a href="https://www.facebook.com/Bibaswans.e.f/" class="social_facebook"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+        <li><a href="https://www.instagram.com/bibaswan_educational_foundatio/" class="social_instra"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
+        <li><a href="#" class="social_youtube"><i class="fa fa-youtube-play" aria-hidden="true"></i></a></li>
+    </ul>
     <a href="https://api.whatsapp.com/send?phone=919641592339&amp;text=Hi" class="floatWhatsAppWATICTA" target="_blank" style="
     position: fixed;
     width: 50px;
