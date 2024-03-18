@@ -24,7 +24,9 @@ headerTemplate.innerHTML = `
                 <span>IDE</span></a></li>
     </ul>
 </nav><!-- .nav-menu -->
-
+<button class="navbar-toggler" type="button">
+    <span class="bar"></span>
+</button>
 
 </div>
 
